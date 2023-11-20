@@ -2,34 +2,116 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 html,body {
     width: 100%;
     height: 100vh;
+    background-color: #000;
 }
 
 .main {
     background-image: url(assets/images/Netflix\ Background\ image.jpg);
-    background-position: bottom;
-    height: 100vh;
     position: relative;
+    height: 100vh;
+    background-size: max(1000px, 100vw);
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
 .main .overlay { 
     height: 100vh;
     width: 100%;
-    opacity: 0.5;
+    opacity: 0.6;
     background-color: #000;
     position: absolute;
     top: 0;
 }
 
 .navbar {
+    max-width: 77vw;
+    margin: auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
 }
 
-.navbar img{
-    height: 7vh;
+.navbar img {
+    height: 6.5vh;
+    position: relative;
+    z-index: 9;
+}
+
+.navbar button {
+    position: relative;
+    z-index: 9;
+}
+
+.center-text {
+    height: 95%;
+    color: #fff;
+    position: relative;
+    z-index: 9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10%;
+}
+
+.f-text {
+    font-size:7vh;
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 1.5%;
+}
+
+.s-text {
+    font-size:21px;
+    margin-bottom: 2%;
+}
+
+.t-text {
+    font-size:19px;
+    margin-bottom: 1.5%;
+}
+
+.login {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+.login input {
+    padding: 16px 200px 16px 15px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+}
+
+.login button {
+    padding: 9px 25px;
+    font-size: 22px;
+    font-weight: 600;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    background-color: #ff000d;
+    color: #fff;
+}
+
+.login input::placeholder{
+    font-size: 16px;
+}
+
+.line {
+    height: 11px;
+    background-color: #232323;
+}
+
+.page-2 {
+    height: 100%;
 }
