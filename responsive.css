@@ -1,0 +1,186 @@
+@media screen and (max-width:414px) {
+    body {
+        width: 148%;
+    }
+
+    .main {
+        height: 130vh;
+        background-image: url(assets/images/Netflix\ Background\ image.jpg);
+        background-size: 225vh;
+        width: 103%;
+    }
+
+    .main .overlay {
+        height: 127vh;
+    }
+
+    .line {
+        position: relative;
+        bottom: 45px;
+        height: 13px;
+    }
+
+    .navbar img {
+        height:6.1vh;
+    }
+
+    .navbar {
+        max-width:90%;
+        height: 130px;
+        display: flex;
+        justify-content: flex-start;
+        gap: 50px;
+    }
+
+    #langBtn {
+        display: none;
+    }
+
+    .lang-btn {
+        padding: 8px 25px;
+    }
+
+    .lang-btn i {
+        font-size: 30px;
+    }
+
+    .navbar .sign-btn {
+        font-size: 22px;
+        padding: 10px 15px;
+    }
+
+    .center-text {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .f-text{
+        margin-bottom: 10%;
+    }
+
+    .s-text{
+        margin-bottom: 10%;
+        font-size: 25px;
+    }
+
+    .t-text{
+        margin-bottom: 15%;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .login {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .login input {
+        padding: 25px 80px 25px 15px;
+        font-size: 20px;
+    }
+
+    .login input::placeholder {
+        font-size: 26px;
+        color: #ccc;
+    } 
+
+    .login button {
+        font-size: 30px;
+    }
+
+    .page-2 {
+        height: 85%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .right-content img {
+        height: 45vh;
+    }
+
+    .left-content {
+        width: 110%;
+    }
+
+    .left-content h4 {
+        margin-bottom: 10%;
+    }
+
+    .left-content p {
+        font-size: 25px;
+        text-align: center;
+        margin-bottom: 10%;
+    }
+
+    .right-content video {
+        height: 25vh;
+        position: absolute;
+        right: 20%;
+        top: 139%;
+    }
+
+    .page-3 {
+        height: 90%;
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column-reverse;
+    }
+
+    .page-3 .left-content {
+        width: 90%;
+    }
+
+    .page-3 .left-content h4 {
+        text-align: center;
+        font-size: 50px;
+    }
+
+    .page-3 .left-content p {
+        text-align: center;
+        font-size: 21px;
+        margin-bottom: -20px;
+    }
+
+    .page-3 .right-content img {
+        height: 55vh;
+    }
+    
+    .page-4 {
+        height: 90%;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+
+    .page-4 .page-4-right img {
+        height: 55vh;
+    }
+
+    .page-4-right video {
+        height:25vh;
+        position: absolute;
+        top: 314%;
+    }
+
+    .page-5 {
+        height: 90%;
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column-reverse;
+    }
+
+    .page-5 .left-content h4{
+        width: 90%;
+        text-align: center;
+        font-size: 55px;
+        position: relative;
+        left: 5%;
+    }
+
+    .page-5 .right-content img{
+        height: 55vh;
+    }
+
+}
