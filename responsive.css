@@ -8,16 +8,15 @@
         background-image: url(assets/images/Netflix\ Background\ image.jpg);
         background-size: 225vh;
         width: 103%;
+        border-bottom: 10px solid #383838;
     }
 
     .main .overlay {
-        height: 127vh;
+        height: 128vh;
     }
 
     .line {
-        position: relative;
-        bottom: 45px;
-        height: 13px;
+        border-bottom: 8px solid #383838;
     }
 
     .navbar img {
@@ -126,6 +125,7 @@
         display: flex;
         justify-content: flex-end;
         flex-direction: column-reverse;
+        padding-top:4%
     }
 
     .page-3 .left-content {
@@ -152,6 +152,7 @@
         display: flex;
         justify-content: flex-start;
         flex-direction: column;
+        padding-top: 4%;
     }
 
     .page-4 .page-4-right img {
@@ -169,6 +170,7 @@
         display: flex;
         justify-content: flex-end;
         flex-direction: column-reverse;
+        padding-top: 4%;
     }
 
     .page-5 .left-content h4{
@@ -186,6 +188,7 @@
     .page-6 {
         padding: 5px 0px;
         height: 195vh;
+        padding-top: 4%;
     }
 
     .faq-h h1 {
@@ -221,12 +224,13 @@
 
     footer {
         height: 55%;
-        padding: 0px 30px ;
+        padding: 0px 30px;
+        padding-top: 20px;
     }
 
     footer span {
         font-size: 25px;
-        margin-bottom: 8%;
+        margin-bottom: 4%;
     }
 
     footer span a {
@@ -239,14 +243,10 @@
 
     footer .links ul li{
         font-size: 20px;
-        margin-bottom: 15%;
+        margin-bottom: 11%;
     }
 
     footer #last {
         display: none;
     }
-}
-
-@media screen and (max-width:600px){
-    
 }
